@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Overpass Mono', monospace;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.banner {
+    width: 100%;
+    background-color: #222222;
+    padding: 10px;
+}
+
+.banner img {
+   width: 500px;
+   position: relative;
+   display: block;
+   margin: 0 auto;
+}
+
+nav {
+    text-align: right;
+}
+
+li {
+    display: inline;
+    background-color: #222222;
+    
+}
+
+.mainbody {
+    text-align: center;
+    font-family: 'Overpass Mono';
+}
+
+.squares {
+   float: left;
+   position: relative;
+   left: 50%;
+}
+
+.square1 {
+    background-color: #444444;
+    width: 300px;
+    height: 300px;
+    border: 2px darkgray solid;
+    float: left;
+    position: relative;
+    left: -50%;
+    margin: 5px;
+    background-image: url("./images/suit.jpg");
+    background-size: cover;
+    
+}
+
+.square2 {
+    background-color: #444444;
+    width: 300px;
+    height: 300px;
+    border: 2px darkgray solid;
+    float: left;
+    position: relative;
+    left: -50%;
+    margin: 5px;
+    background-image: url("./images/money.jpg");
+    background-size: cover;
+}
+
+.square3 {
+    background-color: #444444;
+    width: 300px;
+    height: 300px;
+    border: 2px darkgray solid;
+    float: left;
+    position: relative;
+    left: -50%;
+    margin: 5px;
+    background-image: url("./images/redandgold.jpg");
+    background-size: cover;
+}
+
+.bodyp {
+    width: 300px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    z-index: 1;
+    -webkit-text-stroke: 0.5px black;
+
+}
+
+.square1 img {
+    width: 75%;
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+
+}
+
+footer {
+    font-family: 'Overpass Mono';
+    font-size: small;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+
+}
